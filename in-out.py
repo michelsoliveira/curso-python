@@ -20,4 +20,6 @@ print(nome, 'tem', idade, 'anos') #imprimindo frases concatenadas!
 print(nome + ' tem ' + str(idade) + ' anos e ' + str(altura) + ' metros')#conversao de tipos
 
 nome = input('escreva seu nome') #recebendo dados do usuario
+idade = int(input('escreva sua idade'))#convertendo inputs
 print(nome, 'tem', idade, 'anos') #imprimindo os dados
+print (type(idade))# printando o tipo convertido
