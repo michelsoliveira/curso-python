@@ -16,3 +16,5 @@ tipo_altura = type(altura)
 print(tipo_altura)
 
 print(nome, 'tem', idade, 'anos') #imprimindo frases concatenadas!
+
+print(nome + ' tem ' + str(idade) + ' anos e ' + str(altura) + ' metros')#conversao de tipos
